@@ -50,7 +50,7 @@ public class InfoActivity extends AppCompatActivity {
 
         nameView = (TextView) findViewById(R.id.name);
         surnameView = (TextView) findViewById(R.id.surname);
-        idView = (TextView) findViewById(R.id.id);
+        //idView = (TextView) findViewById(R.id.id);
         emailView = (TextView) findViewById(R.id.email);
         genderView = (TextView) findViewById(R.id.gender);
         ipView = (TextView) findViewById(R.id.ip);
@@ -80,7 +80,7 @@ public class InfoActivity extends AppCompatActivity {
             jobView.setText(job);
             int idd = id+1;
             String iddd = String.valueOf(idd);
-            idView.setText(iddd);
+            //idView.setText(iddd);
 
             mActionBarToolbar = (Toolbar) findViewById(R.id.toolbar_actionbar);
             setSupportActionBar(mActionBarToolbar);
